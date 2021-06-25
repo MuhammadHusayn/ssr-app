@@ -1,4 +1,4 @@
 const host = 'localhost'
-const PORT = 7000
+const PORT = process.env.PORT || 7000
 
 module.exports = { PORT, host }
